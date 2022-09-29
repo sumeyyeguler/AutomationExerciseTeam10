@@ -1,5 +1,7 @@
 package nurettin;
 
+import org.junit.Test;
+
 public class TestCase1 {
     //1. Launch browser
     //2. Navigate to url 'http://automationexercise.com'
@@ -19,4 +21,8 @@ public class TestCase1 {
     //16. Verify that 'Logged in as username' is visible
     //17. Click 'Delete Account' button
     //18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
+    @Test
+    public void name() {
+        System.out.println("hello");
+    }
 }
